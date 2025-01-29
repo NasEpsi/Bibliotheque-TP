@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import Navbar from "../components/Navbar.svelte";
+    import Add from "../components/Add.svelte"
+    import Afficher from "../components/Afficher.svelte";
+</script>
+
+<Navbar/>
+
+<Afficher />
+
